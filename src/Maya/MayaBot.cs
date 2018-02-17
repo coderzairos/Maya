@@ -50,7 +50,7 @@ namespace Maya
             Discord.LeftGuild += MainHandler.RemoveGuild;
             await MainHandler.InitializeEarlyAsync(services.BuildServiceProvider());
 
-            await Discord.LoginAsync(TokenType.Bot, MainHandler.ConfigHandler.GetBotToken());
+            await Discord.LoginAsync(TokenType.Bot, "NDE0NDA1ODE0NDIyNjAxNzMw.DWnHCA.8q5kLh_HYBQzrQtrQ_-s85UEWSE");
             await Discord.StartAsync();
             await Task.Delay(-1);
         }
